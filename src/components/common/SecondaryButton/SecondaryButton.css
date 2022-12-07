@@ -11,6 +11,7 @@
   gap: 1rem;
   margin-bottom: 1rem;
   transition: 400ms ease-in-out;
+  text-decoration: none;
 }
 
 .secondaryButtonContainer:hover {

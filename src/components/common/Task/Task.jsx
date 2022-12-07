@@ -27,7 +27,7 @@ const Task = ({ taskLists, setTaskLists, currentIndex, text, completed }) => {
   return (
     <div className="taskContainer" title={text}>
       <p>{completed ? <strike>{text}</strike> : text}</p>
-      <div className="taskButtonCotainer">
+      <div className="taskButtonContainer">
         <button className="completedButton" onClick={() => updateStatus()}>
           <img src={completed ? assets.cross : assets.check} alt="completed" />
         </button>
