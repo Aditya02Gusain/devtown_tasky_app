@@ -17,3 +17,5 @@ root.render(
 reportWebVitals();
 
 // Strict mode only works in Development mode and not in Deployment
+// Addition Resource
+// https://upmostly.com/tutorials/why-is-my-useeffect-hook-running-twice-in-react
